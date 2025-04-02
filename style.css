@@ -84,6 +84,9 @@ svg {
 .formGroup {
     width: 100%;
     margin-bottom: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .formGroup input {
@@ -147,28 +150,115 @@ li button:hover {
 }
 
 
-
-
-
 /* ::::: RESPONSIVE DESIGN DEVICE SIZES ::::: */
 
 /* for Responsive Target the ROW Code (display:grid) */
 
 /* Small devices (landscape phones, upto 576px and below) */
 /* @media (width <=576px) */
-@media (max-width: 576px) {}
+@media (max-width: 576px) {
+    .todolist {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .formGroup {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0rem 0rem;
+    }
+
+    .formGroup .textArea {
+        margin: 1rem 0rem;
+    }
+
+    .listBody {
+        background-color: var(--tertiaryColor);
+        padding: 1rem;
+        border-radius: 2rem;
+    }
+
+    li {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 1.6rem;
+        padding: 1rem 1rem;
+        margin: 1rem 0rem;
+    }
+
+    li button {
+        font-size: 1.4rem;
+        font-weight: 450;
+    }
+}
 
 /* Medium devices (tablets, upto 768px and above) */
 /* @media (min-width: 577px) and (max-width: 768px) */
 @media (width >=577px) and (width <=768px) {
-    /* write code here */
+    .todolist {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .formGroup {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0rem 0rem;
+    }
+
+    .formGroup .textArea {
+        width: 100%;
+        margin: 1rem 0rem;
+    }
+
+    li {
+        background-color: var(--tertiaryColor);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 1.6rem;
+        padding: 1rem 1rem;
+        margin: 1rem 0rem;
+    }
+
+    li button {
+        font-size: 1.4rem;
+        font-weight: 450;
+    }
 }
 
 
 /* Large devices (Laptops, upto 992px and above) */
 /* @media (min-width: 769px) and (max-width: 992px) */
 @media (width >=769px) and (width <=992px) {
-    /* write code here */
+    .todolist {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .formGroup {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0rem 0rem;
+    }
+
+    .formGroup .textArea {
+        width: 100%;
+        margin: 1rem 0rem;
+    }
 }
 
 
