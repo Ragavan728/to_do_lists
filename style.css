@@ -1,0 +1,186 @@
+/* Default code Starts here */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-wrap: word-wrap;
+    /* border: 1px solid red; */
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #eff2f7;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.5rem;
+    font-size: 1.6rem;
+    -webkit-font-smoothing: antialiased;
+    font-optical-sizing: auto;
+}
+
+
+
+::-webkit-scrollbar {
+    width: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h6,
+p {
+    text-wrap: balance;
+}
+
+input,
+textarea,
+button {
+    font-family: inherit;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+:root {
+    --primaryColor: #1173ff;
+    --secondaryColor: #737092;
+    --tertiaryColor: #eff2f7ad;
+    --darkColor: #000000;
+    --lightColor: #ffffff;
+    --regularFont: 1.4rem;
+    --headingFont: 2rem;
+    --ffPrimary: "Montserrat", sans-serif;
+}
+
+.todolist {
+    width: 100%;
+    background-color: var(--lightColor);
+    border-radius: 2rem;
+}
+
+.display {
+    font-family: var(--ffPrimary);
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--primaryColor);
+    margin-bottom: 3rem;
+}
+
+.formGroup {
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+.formGroup input {
+    background-color: var(--tertiaryColor);
+    font-family: var(--ffPrimary);
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: var(--secondaryColor);
+    border-radius: 1rem;
+    border: 1.6px solid var(--secondaryColor);
+    margin-right: 1rem;
+}
+
+.formGroup button {
+    background-color: var(--primaryColor);
+    font-family: var(--ffPrimary);
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--lightColor);
+    border: none;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.formGroup button:hover {
+    background-color: var(--secondaryColor);
+}
+
+.listBody {
+    width: 100%;
+    padding: 0rem 3rem;
+}
+
+li {
+    background-color: var(--tertiaryColor);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: var(--ffPrimary);
+    font-size: 1.8rem;
+    font-weight: 500;
+    padding: 1rem 3rem;
+    border-radius: 1rem;
+    border: 1.6px solid var(--secondaryColor);
+    margin: 2rem 0rem;
+}
+
+li button {
+    background-color: #ff0000;
+    font-family: var(--ffPrimary);
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--lightColor);
+    border: none;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+li button:hover {
+    background-color: #fc7d7d;
+}
+
+
+
+
+
+/* ::::: RESPONSIVE DESIGN DEVICE SIZES ::::: */
+
+/* for Responsive Target the ROW Code (display:grid) */
+
+/* Small devices (landscape phones, upto 576px and below) */
+/* @media (width <=576px) */
+@media (max-width: 576px) {}
+
+/* Medium devices (tablets, upto 768px and above) */
+/* @media (min-width: 577px) and (max-width: 768px) */
+@media (width >=577px) and (width <=768px) {
+    /* write code here */
+}
+
+
+/* Large devices (Laptops, upto 992px and above) */
+/* @media (min-width: 769px) and (max-width: 992px) */
+@media (width >=769px) and (width <=992px) {
+    /* write code here */
+}
+
+
+/* X-Large devices (large desktops, upto 1200px and above) */
+/* @media (min-width: 993px) and (max-width: 1200px) */
+@media (width >=993px) and (width <=1200px) {
+    /* write code here */
+}
+
+
+/* XX-Large devices (larger desktops, upto 1400px and above) */
+/* @media (min-width: 1200px)  */
+@media (width >=1200px) {
+    /* write code here */
+}
